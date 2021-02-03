@@ -1,9 +1,3 @@
-body {
-  background-color: #62b6cb;
-}
-
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+body .timeline-comment, body .input-contrast {
+    background-color: #62B6CB !important;
+  }
