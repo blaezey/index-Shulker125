@@ -11,7 +11,7 @@ a {
   border: solid, #1B4965, 2px;
       }
 a:hover {
-  background-color:#000000;
+  background-color:#08a9cbff;
        } 
 .list{
   list-style-type: none;
@@ -31,11 +31,11 @@ a:hover {
   z-index: 500;
       }
 #page1 .one {
-  background-color: #08a9cbff;
+  background-color: #029cde;
 }
 #page2 .two {
-  background-color: #08a9cbff; 
+  background-color: #029cde; 
 }
 #page3 .three {
-  background-color: #08a9cbff; 
+  background-color: #029cde; 
 }
