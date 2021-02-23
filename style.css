@@ -6,7 +6,7 @@ a {
   padding: 8px;
   background-color: #048ba8;
   text-decoration: none;
-  color: #020887;
+  color: #175676;
   font-size: 25px;
   border: solid, #1B4965, 2px;
       }
@@ -31,11 +31,11 @@ a:hover {
   z-index: 500;
       }
 #page1 .one {
-  background-color: #029cde;
+  background-color: #62b6cb;
 }
 #page2 .two {
-  background-color: #029cde; 
+  background-color: #62b6cb; 
 }
 #page3 .three {
-  background-color: #029cde; 
+  background-color: #62b6cb; 
 }
