@@ -31,4 +31,11 @@ a:hover {
   z-index: 500;
       }
 
-
+<script type="text/javascript" >
+$(document).ready(function(){
+        $('.list .link a').click(function(){
+        $('.link a').removeClass("active");
+        $(this).addClass("active");
+       });
+       });
+</script>
