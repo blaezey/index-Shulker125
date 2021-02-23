@@ -30,12 +30,12 @@ a:hover {
   border: 3px solid #1B4965;
   z-index: 500;
       }
-
-<script type="text/javascript" >
-$(document).ready(function(){
-        $('.list .link a').click(function(){
-        $('.link a').removeClass("active");
-        $(this).addClass("active");
-       });
-       });
-</script>
+#page1 .one {
+  background-color: #08a9cbff;
+}
+#page2 .two {
+  background-color: #08a9cbff; 
+}
+#page3 .three {
+  background-color: #08a9cbff; 
+}
