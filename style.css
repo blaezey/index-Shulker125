@@ -1,7 +1,7 @@
 body {
   background-color: #feefe5;
       }
-.one .two .three {
+a.one a.two a.three {
   display: block;
   padding: 8px;
   background-color: #048ba8;
@@ -10,7 +10,7 @@ body {
   font-size: 25px;
   border: solid, #1B4965, 2px;
       }
-.one:hover .two:hover .three:hover{
+a.one:hover a.two:hover a.three:hover{
   background-color:#08a9cbff;
        } 
 .list{
