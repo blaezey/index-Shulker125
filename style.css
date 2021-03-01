@@ -1,7 +1,7 @@
 body {
   background-color: #feefe5;
       }
-a.one {
+a.one, a.two, a.three {
   display: block;
   padding: 8px;
   background-color: #048ba8;
@@ -10,31 +10,7 @@ a.one {
   font-size: 25px;
   border: solid, #1B4965, 2px;
       }
-a.two {
-  display: block;
-  padding: 8px;
-  background-color: #048ba8;
-  text-decoration: none;
-  color: black;
-  font-size: 25px;
-  border: solid, #1B4965, 2px;
-      }
-a.three {
-  display: block;
-  padding: 8px;
-  background-color: #048ba8;
-  text-decoration: none;
-  color: black;
-  font-size: 25px;
-  border: solid, #1B4965, 2px;
-      }
-a.one:hover {
-  background-color:#08a9cbff;
-       } 
-a.two:hover {
-  background-color:#08a9cbff;
-       }
-a.three:hover {
+a.one:hover, a.two:hover, a.three:hover {
   background-color:#08a9cbff;
        } 
 .list{
