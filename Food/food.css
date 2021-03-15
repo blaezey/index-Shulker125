@@ -10,6 +10,7 @@ body {
 .link{
   float: left;
   font-family: Brush Script MT;
+  font-size: 25px;
       }
 .nav {
   position: absolute;
