@@ -9,8 +9,6 @@ body {
        }
 .link{
   float: left;
-  font-family: Brush Script MT;
-  font-size: 70px;
       }
 .nav {
   position: absolute;
@@ -24,3 +22,14 @@ body {
 img {
      width: 100px; 
     }
+a {
+  text-decoration: none;
+  font-family: Brush Script MT;
+  font-size: 70px;
+  color: #F8E178;
+  text-indent: 20px;
+  padding: 30px;
+}
+a:hover {
+  color: #E15700;
+}
