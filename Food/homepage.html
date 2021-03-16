@@ -22,6 +22,12 @@
     <div class="hours">
       <h1 class="title"> Open Monday through Friday from 9 A.M to 11 P.M.! </h1>
     </div>
+    <div class="wrapper">
+      <div class="box item1"> Lobster Supreme </div>
+      <div class="box itm1_img"> <img src="https://www.foodrepublic.com/wp-content/uploads/2017/10/lobstersavannah.jpg" class="grid_img"></div>
+      <div class="box item2"> Shrimp, Oyster, and Octopus Galore </div>
+      <div class="box itm2_img"> <img src="https://i.pinimg.com/originals/13/27/a3/1327a32e41eefd469ffdbecf2ae39308.jpg" class="grid_img"> </div>
+    </div>
     
   </body>
   
@@ -35,6 +41,28 @@
       position: absolute;
       top: 1000px;
       left: 250px;
+    }
+    .wrapper {
+      display: grid;
+      grid-template-columns: 500px 450px;
+      position: absolute;
+      left: 250px;
+      top: 1300px;
+      background-color: #F08B0F;
+      color: #E15700;
+      font-family: Brush Script MT;
+      grid-gap: 10px;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    .box {
+      background-color: #F5B566;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 50px;
+    }
+    .grid_img {
+      width: 400px;
     }
   </style>
 </html>
