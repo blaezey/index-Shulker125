@@ -33,3 +33,8 @@ a {
 a:hover {
   color: #E15700;
 }
+.title {
+  font-family: Brush Script MT;
+  font-size: 50px;
+  color: #E15700;
+}
