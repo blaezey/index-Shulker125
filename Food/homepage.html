@@ -27,15 +27,21 @@
       <div class="box item2"> Shrimp, Oyster, and Octopus Galore </div>
       <div class="box itm2_img"> <img src="https://i.pinimg.com/originals/13/27/a3/1327a32e41eefd469ffdbecf2ae39308.jpg" class="grid_img"> </div>
     </div>
-    <div class="menu" id="Menu">
+     <div class="menu" id="Menu">
       <h1 class="title"> Menu </h1>
-    </div>
-    <div class="location" id="Locations">
+       <div class="menu_grid">
+         <div class="one"> 1 </div>
+         <div class="two"> 2 </div>
+         <div class="three"> 3 </div>
+         <div class="four"> 4 </div>
+       </div>
+     </div>
+     <div class="location" id="Locations">
       <h1 class="title"> Locations </h1>
-    </div>
-    <div class="contact" id="Contact_Us">
+     </div>
+     <div class="contact" id="Contact_Us">
       <h1 class="title"> Contact Us <h/1>
-    </div>
+     </div>
     <div class="space"> 1 </div>
     
   </body>
@@ -69,6 +75,8 @@
       border-radius: 5px;
       padding: 20px;
       font-size: 50px;
+    }
+    .item1, .item2{
       text-align: center;
     }
     .grid_img {
@@ -90,6 +98,17 @@
     .contact {
       position: absolute;
       top: 2800px;
+    }
+    .menu_grid {
+      display: grid;
+      grid-template-columns: 100px 100px 100px 100px;
+      background-color: red;
+      grid-gap: 10px;
+      padding: 20px;
+    }
+    .one, .two, .three, .four {
+      background-color: blue;
+      
     }
   </style>
 </html>
