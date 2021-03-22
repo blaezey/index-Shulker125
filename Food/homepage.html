@@ -50,9 +50,6 @@
      <div class="location" id="Locations">
       <h1 class="title loc"> Locations </h1>
      </div>
-     <div class="contact" id="Contact_Us">
-      <h1 class="title"> Contact Us <h/1>
-     </div>
     <div class="space"> 1 </div>
         <div class="return_top"><a href=#home class="top"> Click Here to Return to Top </a></div>
     <div class="location1"> 
@@ -63,7 +60,21 @@
       <h2> Roseville, California </h2>
      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1y4BEOnih2IvdCXvt2xdeOt8K-K3Re7f8" width="500" height="350"></iframe>
     </div>
-    
+    <div class="contact" id="Contact_Us">
+      <h1 class="title"> Contact Us <h/1>
+     </div>
+        <div class="phone1">
+          Roseville Phone Number
+        </div>
+     <div class="roseville_phone">
+       <a class="fake" href="https://images-na.ssl-images-amazon.com/images/I/81TzNfTm4LL._AC_SL1500_.jpg" target="_blank"> 916-555-6936 </a>
+     </div>
+        <div class="phone2">
+          San Diego Phone Number
+        </div>
+     <div class="san_diego_phone">
+       <a class="fake" href="https://images-na.ssl-images-amazon.com/images/I/81TzNfTm4LL._AC_SL1500_.jpg" target="_blank"> 858-555-0853 </a>
+     </div>
   </body>
   
   <style>
@@ -126,6 +137,8 @@
     .contact {
       position: absolute;
       top: 3500px;
+      height: 500px;
+      left: 680px;
     }
     .menu_grid {
       display: grid;
@@ -192,5 +205,35 @@
     html {
   scroll-behavior: smooth;
 }
+    .roseville_phone, .san_diego_phone {
+      position: absolute;
+      top: 3700px;
+      font-family: Brush Script MT;
+    }
+    .roseville_phone {
+      left: 270px;
+    }
+    .san_diego_phone {
+      left: 1000px;
+    }
+    .fake {
+      color: #F08B0F;
+      font-size: 30px;
+    }
+    .phone1, .phone2 {
+      position: absolute;
+      top: 3650px;
+      color: #F08B0F;
+      font-family: Brush Script MT;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .phone1 {
+      left: 270px;
+    }
+    .phone2 {
+      left: 1000px;
+    }
   </style>
 </html>
