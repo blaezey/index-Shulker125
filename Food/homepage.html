@@ -34,17 +34,16 @@
      <div class="menu" id="Menu">
       <h1 class="title"> Menu </h1>
        <div class="menu_grid">
-         <div class="lob">
-          <div class="info a"> Lobster </div>
-          <div class="item e"> e </div>
-          <div class="item i"> i </div>
-          <div class="item m"> m </div>
-         </div>
+         <div class="info lob"> Lobster <div class="item"> Lobster Supreme ..... $16.95 </div><div class="item"> The Classic .......... $14.99</div><div class="item"> The Daredevil ........ $16.95 </div></div>
+          <div class="info e"> e </div>
+          <div class="info i"> i </div>
+          <div class="info m"> m </div>
+         
           <div class="info b"> b </div>
           <div class="info c"> c </div>
           <div class="info d"> d </div>
          
-          <div class="info f"> f </div>
+         <div class="info crab"> Crab <div class="item"> King Crab Legs ..... $19.99</div><div class="item"> Snow Crab Legs ..... $14.99</div><div class="item"> Mix 'n Match ........ $16.99</div><div class="item"> Crab Cakes .......... $10.99</div><div class="item"> Spicy Crab .......... $14.99</div></div>
           <div class="info g"> g </div>
           <div class="info h"> h </div>
          
@@ -165,7 +164,8 @@
     }
     .menu_grid {
       display: grid;
-      grid-template-columns: 355px 355px 355px 355px;
+      grid-template-columns: 400px 400px 400px;
+      grid-template-rows: 100px 100px 100px 100px 100px;
       background-color: #F08B0F;
       grid-gap: 10px;
       padding: 20px;
@@ -175,7 +175,6 @@
     .info {
       background-color: #F5B566;
       font-size: 50px;
-      text-decoration: underline;
       padding: 10px;
     }
     .catch {
@@ -268,20 +267,17 @@
     .instagram {
       left: 965px;
     }
-    .b {
-      grid-column: 2;
-      grid-row: 0/1;
-    }
-    .c {
-      
-    }
     .lob {
-      background-color: red;
+      grid-row: 1 / 4;
+    }
+    .crab {
+      grid-row: 4 / 8;
     }
     .item {
       background-color: #F5B566;
       font-size: 35px;
       padding: 10px;
+      text-decoration: none;
     }
   </style>
  </html>
