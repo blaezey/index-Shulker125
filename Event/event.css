@@ -1,1 +1,37 @@
+body {
+  background-color: #E2CFEA;
+}
 
+h1 {
+  background-color: #A06CD5
+}
+a.one, a.two, a.three, a.four, a.five{
+  display: block;
+  padding: 8px;
+  background-color: #A06CD5;
+  text-decoration: none;
+  color: #062726;
+  font-size: 25px;
+  border: solid, #1B4965, 2px;
+      }
+a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover {
+  background-color: #6247AA;
+  
+       } 
+.list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+       }
+.link{
+  float: left;
+      }
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  background-color: #A06CD5;
+  border: 3px solid #062726;
+  z-index: 500;
+      }
