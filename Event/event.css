@@ -36,3 +36,20 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover {
   border: 3px solid #062726;
   z-index: 500;
       }
+.site-links {
+  position: relative;
+  font-weight: bold;
+  font-size: 30px;
+  left: 50px;
+  top: 30px;
+  width: 50%;
+}
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+  position: relative;
+  top: 70px;
+  left: 300px;
+  grid-gap: 10px;
+}
