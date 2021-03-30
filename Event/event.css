@@ -13,6 +13,7 @@ a.one, a.two, a.three, a.four, a.five{
   color: #062726;
   font-size: 35px;
   border: solid, #1B4965, 2px;
+  font-family: Garamond;
       }
 a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover {
   background-color: #CBAADA;
