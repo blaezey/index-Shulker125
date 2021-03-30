@@ -53,9 +53,9 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover {
   left: 300px;
   grid-gap: 20px;
 }
-.foot {
+.footer-box {
   text-decoration: none;
 }
-.foot:hover {
-    color: #E2CFEA;
+.footer-box:hover {
+  color: #E2CFEA;
 }
