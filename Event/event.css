@@ -7,11 +7,11 @@ h1 {
 }
 a.one, a.two, a.three, a.four, a.five{
   display: block;
-  padding: 8px;
+  padding: 10px;
   background-color: #A06CD5;
   text-decoration: none;
   color: #062726;
-  font-size: 25px;
+  font-size: 35px;
   border: solid, #1B4965, 2px;
       }
 a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover {
