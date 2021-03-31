@@ -16,7 +16,7 @@
       <div class="box txt1"> txt1</div>
       <div class="box txt2"> txt2</div>
       <div class="box img2"> <center><img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/06/03/07/eid-al-fitr-main.jpg?width=1200" class="style2"></center></div>
-      <div class="box video"> video</div>
+    <div class="box video"><center><iframe class="vid" width="700" height="485" src="https://www.youtube.com/embed/6OF4HEGNBRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></div>
       <div class="box footer"> 
         <div class="site-links"> Site Links </div>
         <div class="footer-wrapper">
@@ -64,6 +64,10 @@
     }
     .video {
       grid-column: 1 / 8;
+    }
+    .vid {
+      position: relative;
+      top: 10px;
     }
     .img1 {
       grid-column: 1 / 4;
