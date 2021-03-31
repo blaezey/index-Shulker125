@@ -57,7 +57,7 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover {
   text-decoration: none;
 }
 .footer-box:hover {
-  color: #E2CFEA;
+  color: #CBAADA;
 }
 @media(max-width:1115px){.footer-wrapper{left:250px;}}
 @media(max-width:815px){.footer-wrapper{left: 200px;}}
