@@ -1,3 +1,4 @@
+  
 <html>
   <head>
     <title> Eid al-Fitr | Date and Time </title>
@@ -16,17 +17,8 @@
     <div class="box header"><center> Date and Time</center></div>
       <div class="box calendar"><center><iframe src="https://calendar.google.com/calendar/embed?src=c_bgo33hqs7tt7bmuk0n9kulklm8%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="950" height="480" frameborder="0" scrolling="no"></iframe></center></div>
       <div class="box date"> May 12, 2021</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
+      <div class="box other-cal"><center><img src="https://i.pinimg.com/originals/b9/24/0d/b9240d0f55096937f3726b32af8f9782.png" class="img1"></center></div>
+      <div class="box info-cal"> info</div>
       <div class="box footer"> <div class="site-links"> Site Links </div>
         <div class="footer-wrapper">
           <div class="footer-box"><a> About Us</a></div>
@@ -57,7 +49,7 @@
       grid-gap: 5px;
       padding: 5px;
       width: 100.35%;
-      height: 1870px;
+      height: 1410px;
 }
     .box {
       background-color: #CBAADA;
@@ -82,6 +74,19 @@
     }
     .date {
       grid-column: 5 / 8;
+    }
+    .other-cal {
+      grid-column: 1 / 4;
+      height: 540px;
+    }
+    .img1 {
+      height: 500px;
+      position: relative;
+      top: 20px;
+    }
+    .info-cal {
+      grid-column: 4 / 8;
+      height: 540px;
     }
     @media(max-width:1500px){iframe{width:800px;}}
     @media(max-width:1270px){iframe{width:700px;}}
