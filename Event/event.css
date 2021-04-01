@@ -11,7 +11,7 @@ a.one, a.two, a.three, a.four, a.five{
   background-color: #A06CD5;
   text-decoration: none;
   color: #062726;
-  font-size: 35px;
+  font-size: 55px;
   border: solid, #1B4965, 2px;
   font-family: Garamond;
       }
@@ -58,6 +58,10 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover {
 }
 .footer-box:hover {
   color: #CBAADA;
+}
+.logo {
+  width: 70px;
+  padding: 5px;
 }
 @media(max-width:1115px){.footer-wrapper{left:250px;}}
 @media(max-width:815px){.footer-wrapper{left: 200px;}}
