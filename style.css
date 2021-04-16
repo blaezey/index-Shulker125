@@ -1,7 +1,7 @@
 body {
   background-color: #feefe5;
       }
-a.one, a.two, a.three, a.four, a.five{
+a.one, a.two, a.three, a.four, a.five, a.six{
   display: block;
   padding: 8px;
   background-color: #048ba8;
@@ -10,7 +10,7 @@ a.one, a.two, a.three, a.four, a.five{
   font-size: 25px;
   border: solid, #1B4965, 2px;
       }
-a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover {
+a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover{
   background-color:#08a9cbff;
        } 
 .list{
