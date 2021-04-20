@@ -17,7 +17,7 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
        }
 .link{
   float: left;
-  width: 92%;
+  width: 70%;
       }
 .nav {
   position: fixed;
