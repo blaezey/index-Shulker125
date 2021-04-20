@@ -16,7 +16,7 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
   padding: 0;
        }
 .link{
-  float: left;
+  float: right;
       }
 .nav {
   position: fixed;
@@ -42,6 +42,6 @@ h1 {
 }
 .logo_tab {
   position: relative;
-  left: 54px;
-  width: 93%;
+  right: 1px;
+  width: 53.7%;
 }
