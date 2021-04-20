@@ -37,13 +37,16 @@ h1 {
   position: relative;
   width: 20vw;
   top: 10px;
+  min-height: 25px;
+  min-width: 150px;
 }
 .menu_icon {
   width: 6vw;
+  min-height: 40px;
+  min-width: 40px;
 }
 .logo_tab {
   position: relative;
-  right: 1px;
   width: 53.7%;
 }
 img {
