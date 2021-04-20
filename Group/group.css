@@ -26,7 +26,7 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
   background-color: antiquewhite;
   border: 3px solid black;
   z-index: 500;
-  height: 100px;
+  height: auto;
       }
 h1 {
   position: absolute;
