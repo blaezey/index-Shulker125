@@ -26,7 +26,7 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
   background-color: antiquewhite;
   border: 3px solid black;
   z-index: 500;
-  height: 40vh;
+  height: 100px;
       }
 h1 {
   position: absolute;
@@ -39,7 +39,7 @@ h1 {
 }
 .menu_icon {
   position: relative;
-  width: 30vh;
+  width: 70px;
   left: 1455px;
   top: -65px;
 }
