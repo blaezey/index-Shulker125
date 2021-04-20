@@ -17,6 +17,7 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
        }
 .link{
   float: left;
+  width: 93.97%;
       }
 .nav {
   position: fixed;
@@ -38,8 +39,5 @@ h1 {
   top: 10px;
 }
 .menu_icon {
-  position: relative;
-  width: 70px;
-  left: 1455px;
-  top: -65px;
+  width: 6vw;
 }
