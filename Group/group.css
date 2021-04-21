@@ -74,3 +74,32 @@ img {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #FDDBC4;}
+
+.footer {
+      grid-column: 1 / 4;
+      height: 300px;
+    }
+    .site-links {
+  position: relative;
+  font-weight: bold;
+  font-size: 2vw;
+  left: 100px;
+  top: 30px;
+  width: 50%;
+}
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+  position: relative;
+  top: 50px;
+  left: 300px;
+  grid-gap: 20px;
+}
+.footer-box {
+  text-decoration: none;
+  font-size: 1vw;
+}
+.footer-box:hover {
+  color: #CBAADA;
+    }
