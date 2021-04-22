@@ -54,6 +54,10 @@
   
   </body>
   <style>
+    .footer {
+      grid-column: 1 / 5;
+      height: 300px;
+    }
     iframe {
       width: 99%;
     }
@@ -69,5 +73,6 @@
       top: 200px;
       background-color: salmon;
     }
+    @media(max-width:540px){.layout{grid-template-columns: 1fr;}.footer{grid-column: 1/1;}}
   </style>
 </html>
