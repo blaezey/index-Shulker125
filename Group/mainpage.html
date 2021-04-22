@@ -89,6 +89,10 @@
     </div>
   </body>
   <style>
+    .footer {
+      grid-column: 1 / 5;
+      height: 300px;
+    }
     .layout {
       position: relative;
       top: 150px;
@@ -199,7 +203,7 @@ img {vertical-align: middle;}
     .picture {
       grid-column: 1 / 5;
     }
-    @media (max-width:540px){.layout{grid-template-columns: 1fr;}}
+    @media (max-width:540px){.layout{grid-template-columns: 1fr;}.footer{grid-column: 1 / 1;}.picture{grid-column: 1 / 1}}
   </style>
   <script>
     var slideIndex = 1;
