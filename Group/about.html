@@ -20,16 +20,16 @@
     </div>
     <table>
       <tr>
-        <th> Dan Reynolds </th>
-        <th> Wayne Sermon </th>
-        <th> Daniel Platzman </th>
-        <th> Ben McKee </th>
+        <th> <a href="https://en.wikipedia.org/wiki/Dan_Reynolds_(singer)" target="_blank" class="info">Dan Reynolds </a></th>
+        <th> <a href="https://en.wikipedia.org/wiki/Wayne_Sermon" target="_blank" class="info">Wayne Sermon </a></th>
+        <th> <a href="https://en.wikipedia.org/wiki/Daniel_Platzman" target="_blank" class="info">Daniel Platzman </a></th>
+        <th> <a href="https://en.wikipedia.org/wiki/Ben_McKee" target="_blank" class="info">Ben McKee </a></th>
       </tr>
       <tr>
-       <td> <center><img src="https://www.famousbirthdays.com/faces/reynolds-dan-image.jpg"> </center></td>
-       <td> <center><img src="https://www.famousbirthdays.com/headshots/wayne-sermon-8.jpg"></center></td>
-       <td> <center><img src="https://www.famousbirthdays.com/faces/platzman-daniel-image.jpg"> </center></td>
-        <td><center> <img src="https://www.famousbirthdays.com/headshots/ben-mckee-4.jpg"> </center></td>
+       <td> <center><a href="https://en.wikipedia.org/wiki/Dan_Reynolds_(singer)" target="_blank" class="info"><img src="https://www.famousbirthdays.com/faces/reynolds-dan-image.jpg" class="animate"></a> </center></td>
+       <td> <center><a href="https://en.wikipedia.org/wiki/Wayne_Sermon" target="_blank" class="info"><img src="https://www.famousbirthdays.com/headshots/wayne-sermon-8.jpg" class="animate"></a></center></td>
+        <td> <center><a href="https://en.wikipedia.org/wiki/Daniel_Platzman" target="_blank" class="info"><img src="https://www.famousbirthdays.com/faces/platzman-daniel-image.jpg" class="animate"></a> </center></td>
+        <td><center> <a href="https://en.wikipedia.org/wiki/Ben_McKee" target="_blank" class="info"><img src="https://www.famousbirthdays.com/headshots/ben-mckee-4.jpg" class="animate"></a> </center></td>
      </tr>
     </table>
   <div class="layout">
@@ -64,6 +64,22 @@
     </div>
   </body>
   <style>
+    .animate {
+      height: 300px;
+      width: 300px;
+      transition: width 1s, height 1s;
+    }
+    .animate:hover {
+      height: 350px;
+      width: 350px;
+    }
+    .info {
+      text-decoration: none;
+      color: black;
+    }
+    .info:hover {
+      color: salmon;
+    }
     .layout {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
