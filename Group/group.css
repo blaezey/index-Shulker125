@@ -75,10 +75,7 @@ img {
 
 .dropdown:hover .dropbtn {background-color: #FDDBC4;}
 
-.footer {
-      grid-column: 1 / 5;
-      height: 300px;
-    }
+
     .site-links {
   position: relative;
   font-weight: bold;
