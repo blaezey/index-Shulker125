@@ -59,17 +59,15 @@
   <span class="dot" onclick="currentSlide(3)"></span> 
   <span class="dot" onclick="currentSlide(4)"></span> 
 </div></div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
+      <div class="box merch_title"> Imagine Dragons Merch</div>
+      <div class="box"><center> <img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/whereyoumaygo-tshirt-front_800x.png?v=1615480169" class="merch"></center></div>
+      <div class="box"><center> <img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/fy-blue-tshirt-front_800x.png?v=1615480386" class="merch"></center></div>
+      <div class="box"><center> <img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/followyou-sweatpants-front_800x.png?v=1615480346" class="merch"></center></div>
+      <div class="box"><center> <img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/followyouhatfront_800x.png?v=1615480249" class="merch"></center></div>
+      <div class="box"><center> <img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/oneofus-hoodie-front_800x.png?v=1615479708" class="merch"></center></div>
+      <div class="box"><center> <img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/timeisup-longsleeve-front_800x.png?v=1615480030" class="merch"></center></div>
+      <div class="box"><center> <img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/cutthroat-crew-front_800x.png?v=1615480197" class="merch"></center></div>
+      <div class="box"><center> <img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/followyousocks_800x.png?v=1615480288" class="merch"></center></div>
       <div class="box footer">  <div class="site-links"> Site Links </div>
         <div class="footer-wrapper">
           <div class="footer-box"><a> About Us</a></div>
@@ -89,6 +87,13 @@
     </div>
   </body>
   <style>
+    .merch {
+      width: 17vw;
+    }
+    .merch_title {
+      text-align: center;
+      grid-column: 1 / 5;
+    }
     .footer {
       grid-column: 1 / 5;
       height: 300px;
@@ -203,7 +208,13 @@ img {vertical-align: middle;}
     .picture {
       grid-column: 1 / 5;
     }
-    @media (max-width:540px){.layout{grid-template-columns: 1fr;}.footer{grid-column: 1 / 1;}.picture{grid-column: 1 / 1}}
+    @media (max-width:540px)
+    {.layout{grid-template-columns: 1fr;}
+     .footer{grid-column: 1 / 1;}
+     .picture{grid-column: 1 / 1}
+     .merch_title{grid-column: 1 / 1;}
+    
+    }
   </style>
   <script>
     var slideIndex = 1;
