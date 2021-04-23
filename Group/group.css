@@ -99,3 +99,4 @@ img {
 .footer-box:hover {
   color: #CBAADA;
     }
+@media(max-width:950px){.footer-box{font-size: 15px;}.site-links{font-size:23px; left: 50px;}}
