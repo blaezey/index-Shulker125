@@ -1,251 +1,102 @@
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="group.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://lh3.googleusercontent.com/proxy/lwMZf3vOH_BXbQ3ejmJ819ami9jjt7z51usGeqaK5UFnMScctZ4XeAPJ_y160yevL5c8KM0Xt_3IB7gElG_G4EWTVTPb1MGPf-BDIQ3mkRZX0fefj7_PRikF6vRPi4Y" type="image/png">
-    <title> Imagine Dragons | Home </title>
-  </head>
-  
-  <body>
-    
-    <div class="nav">
-      <ul class="list">
-        <li class="link"><div class="dropdown"><button class="dropbtn"><img src="https://static.thenounproject.com/png/2292434-200.png" class="menu_icon"></button>
-          <div class="dropdown-content"> 
-            <a href="../Group/mainpage.html"> Home </a>
-            <a href="../Group/music.html"> Music </a>
-            <a href="../Group/about.html"> About </a>
-          </div>
-          </div></li>
-      <li class="link logo_tab"><a href="../Group/mainpage.html" class="home"><img src="https://raw.githubusercontent.com/WVCS/index-Shulker125/main/Group/logo.png" class="logo"></a></li>
-      </ul>
-    </div>
-    <div class="layout">
-      <div class="box picture"> <div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 4</div>
-  <img src="https://static.billboard.com/files/media/Imagine-Dragons-press-photo-by-Eliot-Lee-Hazel-2018-billboard-1548-compressed.jpg" style="width:100%;">
-  <div class="text">Caption Text</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 4</div>
-  <img src="https://medias.momentfactory.com/2015/11/A67G0363-NJ-WS-2100x1400.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 4</div>
-  <img src="https://www.ntdaily.com/wp-uploads/2018/11/origins-680x365_c.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
-</div>
-        
-<div class="mySlides fade">
-  <div class="numbertext">4 / 4</div>
-  <img src="https://images.eatmytickets.com/attraction/image-thumb/attraction_details/imagine-dragons-0815d.jpg" style="width:100%">
-  <div class="text">Caption Four</div>
-</div>
-        
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-  <span class="dot" onclick="currentSlide(4)"></span> 
-</div></div>
-      <div class="box merch_title"> Imagine Dragons Merch</div>
-      <div class="box"><center><a href="https://shop.imaginedragonsmusic.com/products/wherever-you-may-go-t-shirt"class="store" target="_blank"> <img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/whereyoumaygo-tshirt-front_800x.png?v=1615480169" class="merch"></a></center></div>
-      <div class="box"><center> <a href="https://shop.imaginedragonsmusic.com/products/follow-you-t-shirt"class="store"target="_blank"><img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/fy-blue-tshirt-front_800x.png?v=1615480386" class="merch"></a></center></div>
-      <div class="box"><center> <a href="https://shop.imaginedragonsmusic.com/products/follow-you-sweat-pants"class="store"target="_blank"><img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/followyou-sweatpants-front_800x.png?v=1615480346" class="merch"></a></center></div>
-      <div class="box"><center> <a href="https://shop.imaginedragonsmusic.com/products/follow-you-hat"class="store"target="_blank"><img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/followyouhatfront_800x.png?v=1615480249" class="merch"></a></center></div>
-      <div class="box"><center> <a href="https://shop.imaginedragonsmusic.com/products/only-one-of-us-hoodie"class="store"target="_blank"><img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/oneofus-hoodie-front_800x.png?v=1615479708" class="merch"></a></center></div>
-      <div class="box"><center> <a href="https://shop.imaginedragonsmusic.com/products/time-is-up-long-sleeve"class="store"target="_blank"><img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/timeisup-longsleeve-front_800x.png?v=1615480030" class="merch"></a></center></div>
-      <div class="box"><center> <a href="https://shop.imaginedragonsmusic.com/products/cut-throat-pullover"class="store"target="_blank"><img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/cutthroat-crew-front_800x.png?v=1615480197" class="merch"></a></center></div>
-      <div class="box"><center> <a href="https://shop.imaginedragonsmusic.com/products/follow-you-socks"class="store"target="_blank"><img src="https://cdn.shopify.com/s/files/1/0026/8291/2880/products/followyousocks_800x.png?v=1615480288" class="merch"></a></center></div>
-      <div class="box footer">  <div class="site-links"> Site Links </div>
-       <center> <div class="footer-wrapper">
-          <div class="footer-box"><a> About Us</a></div>
-           <div class="footer-box"><a> About Us</a></div>
-           <div class="footer-box"><a> About Us</a></div>
-           <div class="footer-box"><a> Contact Us</a></div>
-           <div class="footer-box"><a> Contact Us</a></div>
-           <div class="footer-box"><a> Contact Us</a></div>
-           <div class="footer-box"><a> Site Map</a></div>
-           <div class="footer-box"><a> Site Map</a></div>
-          <div class="footer-box"><a> Site Map </a></div>
-           <div class="footer-box"><a> FAQs</a></div>
-           <div class="footer-box"><a> FAQs</a></div>
-           <div class="footer-box"><a> FAQs</a></div>
-         </div></center>
-    </div></div>
-    </div>
-  </body>
-  <style>
-    .merch {
-      width: 17vw;
-      transition: width 0.5s;
-      min-width: 200px;
-    }
-    .merch:hover {
-      background-color: #E9EAEC;   
-      width: 19vw;
-    }
-    .merch_title {
-      text-align: center;
-      grid-column: 1 / 5;
-    }
-    .footer {
-      grid-column: 1 / 5;
-      height: 300px;
-    }
-    .layout {
-      position: relative;
-      top: 150px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    .box {
-      background-color: salmon;
-    }
-    * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  position: relative;
-  margin: auto;
-  width: 100%;
-    }
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
+.list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+       }
+.link{
+  float: right;
+      }
+.nav {
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
+  background-color: antiquewhite;
+  border: 3px solid black;
+  z-index: 500;
+  height: auto;
+  min-height: 50px;
+      }
+h1 {
+  position: absolute;
+  top: 50px;
+}
+.logo {
+  position: relative;
+  width: 30vw;
+  top: 10px;
+  min-height: 25px;
+  min-width: 230px;
+}
+.menu_icon {
+  width: 6vw;
+  min-height: 40px;
+  min-width: 40px;
+}
+.logo_tab {
+  position: relative;
+  width: 56.5%;
+}
+img {
+  min-height: 25px;
+}
+.dropbtn {
+  background-color: antiquewhite;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
+.dropdown {
+  background-color: antiquewhite;
+  position: relative;
   display: inline-block;
-  transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+.dropdown-content a:hover {background-color: #ddd;}
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+.dropdown:hover .dropdown-content {display: block;}
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+.dropdown:hover .dropbtn {background-color: #FDDBC4;}
+
+
+    .site-links {
+  position: relative;
+  font-weight: bold;
+  font-size: 2vw;
+  left: 100px;
+  top: 30px;
+  width: 50%;
 }
-    .picture {
-      grid-column: 1 / 5;
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+  position: relative;
+  top: 50px;
+  grid-gap: 20px;
+}
+.footer-box {
+  text-decoration: none;
+  font-size: 1vw;
+}
+.footer-box:hover {
+  color: #CBAADA;
     }
-    @media (max-width:540px)
-    {.layout{grid-template-columns: 1fr;}
-     .footer{grid-column: 1 / 1;}
-     .picture{grid-column: 1 / 1}
-     .merch_title{grid-column: 1 / 1;}
-      .logo_tab{width: 65%;}
-    }
-  </style>
-  <script>
-    var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-  </script>
-</html>
+@media(max-width:950px){.footer-box{font-size: 15px;}.site-links{font-size:23px; left: 50px;}}
