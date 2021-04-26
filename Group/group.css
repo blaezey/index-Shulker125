@@ -101,4 +101,4 @@ img {
 .footer-box:hover {
   color: #CBAADA;
     }
-@media(max-width:540px){.footer-box{font-size: 15px;}.site-links{font-size:23px; left:140px; }.logo_tab{width:73%;}}
+@media(max-width:540px){.footer-box{font-size: 15px;}.logo_tab{width:73%;}}
