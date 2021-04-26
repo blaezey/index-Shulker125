@@ -32,6 +32,16 @@
         <td><center> <a href="https://en.wikipedia.org/wiki/Ben_McKee" target="_blank" class="info"><img src="https://www.famousbirthdays.com/headshots/ben-mckee-4.jpg" class="animate"></a> </center></td>
      </tr>
     </table>
+    <div class="table">
+      <div class="row"> <a href="https://en.wikipedia.org/wiki/Dan_Reynolds_(singer)" target="_blank" class="info member"><b>Dan Reynolds</b></a></div>
+      <div class="row"> <center><a href="https://en.wikipedia.org/wiki/Dan_Reynolds_(singer)" target="_blank" class="info"><img src="https://www.famousbirthdays.com/faces/reynolds-dan-image.jpg" class="animate"></a> </center></div>
+      <div class="row"> <a href="https://en.wikipedia.org/wiki/Wayne_Sermon" target="_blank" class="info member"><b>Wayne Sermon</b></a></div>
+      <div class="row"> <center><a href="https://en.wikipedia.org/wiki/Wayne_Sermon" target="_blank" class="info"><img src="https://www.famousbirthdays.com/headshots/wayne-sermon-8.jpg" class="animate"></a></center></div>
+      <div class="row"> <a href="https://en.wikipedia.org/wiki/Daniel_Platzman" target="_blank" class="info member"><b>Daniel Platzman</b></a></div>
+      <div class="row"> <center><a href="https://en.wikipedia.org/wiki/Daniel_Platzman" target="_blank" class="info"><img src="https://www.famousbirthdays.com/faces/platzman-daniel-image.jpg" class="animate"></a> </center></div>
+      <div class="row"> <a href="https://en.wikipedia.org/wiki/Ben_McKee" target="_blank" class="info member"><b>Ben McKee</b></a></div>
+      <div class="row"> <center> <a href="https://en.wikipedia.org/wiki/Ben_McKee" target="_blank" class="info"><img src="https://www.famousbirthdays.com/headshots/ben-mckee-4.jpg" class="animate"></a> </center></div>
+    </div>
   <div class="layout">
     <div class="box text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam non nisi est sit amet facilisis magna. Nunc aliquet bibendum enim facilisis gravida neque convallis. Posuere lorem ipsum dolor sit. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Et malesuada fames ac turpis egestas. Volutpat blandit aliquam etiam erat velit. Massa sed elementum tempus egestas sed sed risus pretium. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Quam lacus suspendisse faucibus interdum posuere lorem. Euismod nisi porta lorem mollis aliquam. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Ut etiam sit amet nisl purus in.</div>
     <div class="box"> <center><img src="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/11397071/image/3e0368abb53780d49303906cacbfcb95" class="history"><center></div>
@@ -58,6 +68,16 @@
     
   </body>
   <style>
+    .table {
+      display: none;
+      position: relative;
+      top: 100px;
+      grid-template-columns: 1fr;
+    }
+    .row {
+      border: 1px solid black;
+      text-align: center;
+    }
     .text {
       display: flex;
       align-items: center;
@@ -104,6 +124,6 @@
       border: 1px solid black;
       border-collapse: collapse;
     }
-    @media(max-width:900px){.footer{grid-column:1/1;}.layout{grid-template-columns: 1fr;}}
+    @media(max-width:540px){.footer{grid-column:1/1;}.layout{grid-template-columns: 1fr;}table{display:none;}.table{display: grid;}.animate{width:60vw;}.animate:hover{width:63vw;}
   </style>  
 </html>
