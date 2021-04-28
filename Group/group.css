@@ -72,7 +72,7 @@ img {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: red;}
+.dropdown-content a:hover {background-color: #d57425;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
@@ -102,7 +102,7 @@ img {
   
 }
 .footer-box:hover {
-  color: #CBAADA;
+  color: #d57425;
     }
 .footer {
   background-image: url(//cache.umusic.com/_sites/_halo/imaginedragons/v3b/images/bg-signup2.jpg);
