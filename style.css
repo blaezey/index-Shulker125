@@ -30,6 +30,12 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
   border: 3px solid #1B4965;
   z-index: 500;
       }
+.hidden_menu {
+  display: none;
+  width: 11vw;
+}
+.hidden_menu:hover{background-color: red;}
+
 #page1 .one {
   background-color: #62b6cb;
 }
@@ -38,4 +44,14 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
 }
 #page3 .three {
   background-color: #62b6cb; 
+}
+@media(max-width:540px){
+  
+  .hide{display:none;}
+  .hidden_menu{display:block;}
+  .link{float:right;}
+  .one, .two, .three, .four, .five, .six, .seven {pointer-events:none;}
+  #page1 .one {background-color: #048ba8;}
+  #page2 .two {background-color: #048ba8; }
+  #page3 .three {background-color: #048ba8;}
 }
