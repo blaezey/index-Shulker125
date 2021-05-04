@@ -1,5 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #e77d11;
+  font-family: Monospace;
 }
 h1 {
   color: 	#451804;
@@ -11,9 +15,8 @@ a.one{
   display: block;
   padding: 10px;
   text-decoration: none;
-  font-size: 55px;
+  font-size: 3vw;
   border: solid, , 2px;
-  font-family: Garamond;
       }
 a.one:hover {
   background-color: #fda600;
@@ -37,7 +40,7 @@ a.one:hover {
   border: 3px solid #451804;
   display: flex;
   justify-content: center;
-  height: 80px;;
+  height: 74px;;
       }
 .mars-image {
   width: 8vw;
