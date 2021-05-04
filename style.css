@@ -36,6 +36,10 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
 }
 .hidden_menu:hover{background-color: red;}
 
+.menuitm, button {
+  display: none;
+}
+
 #page1 .one {
   background-color: #62b6cb;
 }
@@ -45,7 +49,7 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
 #page3 .three {
   background-color: #62b6cb; 
 }
-@media(max-width:540px){
+@media(max-width:900px){
   
   .hide{display:none;}
   .hidden_menu{display:block;}
@@ -54,4 +58,39 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
   #page1 .one {background-color: #048ba8;}
   #page2 .two {background-color: #048ba8; }
   #page3 .three {background-color: #048ba8;}
+  
+.dropbtn {
+  background-color: rgba(34,34,34,1);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  display: block;
+}
+
+.dropdown {
+  background-color: rgba(34,34,34,1);
+  position: relative;
+  display: inline-block;
+}
+ 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(65,61,55,1);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(65,61,55,1);
+  z-index: 1;
+}
+.dropdown-content, .menuitm {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: none;
+}
+
+.dropdown-content .menuitm:hover {background-color: #d57425;}
+
+.dropdown:hover .menuitm {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgba(74,68,62, 1);}
 }
