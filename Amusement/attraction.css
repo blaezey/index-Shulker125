@@ -56,4 +56,4 @@ a.one:hover {
   height: 500px;
 }
 @media(max-width:540px){.nav{height: 10vw;}a.one{font-size:4.2vw;}.mars-image{width:15vw;}.header{top:50px;}}
-@media(max-width:440px){.header{top:40px;}}
+@media(max-width:440px){.header{top:35px;}}
