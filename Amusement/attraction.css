@@ -60,10 +60,50 @@ a.one:hover {
   bottom: 2%;
   opacity: 0;
   transition: opacity 0.5s linear;
+  z-index: 700;
 }
 .book-button {
   display: flex;
   justify-content: center;
 }
-@media(max-width:540px){.nav{height: 10vw;}a.one{font-size:4.2vw;}.mars-image{width:15vw;}.header{top:50px;}}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: relative;
+  top: 1000px;
+  left: -8px;
+  width: 101%;
+}
+.site-links {
+  position: relative;
+  text-align: center;
+  top: 30px;
+  font-weight: bold;
+  font-size: 2vw;
+  width: 100%;
+   color: #451804;
+}
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+  position: relative;
+  top: 50px;
+  grid-gap: 20px;
+  color: #451804;
+}
+.footer-box {
+  text-decoration: none;
+  font-size: 1vw;
+  
+}
+.footer-box:hover {
+  color: 	#fda600;
+    }
+.footer {
+  grid-column: 1 / 5;
+  background-color: #c1440e;
+  height: 300px;
+}
+@media(max-width:540px){.nav{height: 10vw;}a.one{font-size:4.2vw;}.mars-image{width:15vw;}.header{top:50px;}.footer-box{font-size: 15px;}.logo_tab{width:73%;}.site-links{font-size: 25px;}}
 @media(max-width:440px){.header{top:35px;}}
