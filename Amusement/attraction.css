@@ -40,8 +40,9 @@ a.one:hover {
   border: 3px solid #451804;
   display: flex;
   justify-content: center;
-  height: 74px;;
+  height: 74px;
       }
 .mars-image {
   width: 8vw;
 }
+@media(max-width:540px){.nav{height: 10vw;}a.one{font-size:4.2vw;}.mars-image{width:15vw;}}
