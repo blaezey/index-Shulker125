@@ -43,6 +43,9 @@ a.one:hover {
   width: 8vw;
 }
 .header {
+  position: absolute;
+  top: 72px;
   width: 100%;
+  left:0;
 }
 @media(max-width:540px){.nav{height: 10vw;}a.one{font-size:4.2vw;}.mars-image{width:15vw;}}
