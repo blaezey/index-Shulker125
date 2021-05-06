@@ -113,11 +113,13 @@ a.one:hover {
 }
 .right {
   text-align: right;
+  right: 20px;
   position: relative;
   bottom: 20px;
 }
 .left {
   text-align: left;
+  left: 20px;
   position: relative;
   top: 7.5px;
 }
@@ -128,6 +130,24 @@ a.one:hover {
 .image-box {
   display: flex;
   justify-content: center;
+}
+.button-animate{
+  background-color: #c1440e;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5vw;
+  box-shadow: 0 6px #e77d11;
+}
+.button-animate:hover {
+  background-color: #d1490f;
+}
+.button-animate:active {
+  box-shadow: 0 2px #e77d11;
+  transform: translateY(4px);
+}
+.button-link {
+  text-decoration: none;
+  color: #451804;
 }
 @media(max-width:540px){.nav{height: 10vw;}a.one{font-size:4.2vw;}.mars-image{width:15vw;}.header{top:50px;}.footer-box{font-size: 15px;}.logo_tab{width:73%;}.site-links{font-size: 25px;}.wrapper{top: 150px;}.top{200px;}}
 @media(max-width:440px){.header{top:35px;}}
