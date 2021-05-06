@@ -125,15 +125,28 @@ a.one:hover {
 }
 .img {
   width: 30vw;
-  opacity 1;
-  transition: .5s ease;
   border-radius: 6px;
 }
-.back {
-  background-color: #451804;
+.overlay1 {
+  position: absolute;
+  opacity: 0;
+  background-color: #f0e7e7;
+  width: 30vw;
+  border-radius: 6px;
+  height: 261px;
+  transition: .5s ease;
 }
-.img:hover {
-  opacity: 0.5;
+.overlay2 {
+  position: absolute;
+  opacity: 0;
+  background-color: #f0e7e7;
+  width: 30vw;
+  border-radius: 6px;
+  height: 507px;
+  transition: .5s ease;
+}
+.overlay1:hover, .overlay2:hover {
+  opacity: 0.7;
 }
 .image-box {
   display: flex;
