@@ -125,11 +125,20 @@ a.one:hover {
 }
 .img {
   width: 30vw;
-  padding: 10px;
+  opacity 1;
+  transition: .5s ease;
+  border-radius: 6px;
+}
+.back {
+  background-color: #451804;
+}
+.img:hover {
+  opacity: 0.5;
 }
 .image-box {
   display: flex;
   justify-content: center;
+  padding: 10px;
 }
 .button-animate{
   background-color: #c1440e;
