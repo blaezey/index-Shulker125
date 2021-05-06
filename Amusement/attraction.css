@@ -57,10 +57,16 @@ a.one:hover {
 }
 #book {
   position: fixed;
-  bottom: 2%;
+  bottom: 0;
   opacity: 0;
-  transition: opacity 0.5s linear;
+  transition: opacity 0.4s linear;
   z-index: 700;
+  width: 40%;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #fda600;
+  border: solid #451804 3px;
+  font-size: 1.6vw
 }
 .book-button {
   display: flex;
@@ -68,9 +74,9 @@ a.one:hover {
 }
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   position: relative;
-  top: 1000px;
+  top: 350px;
   left: -8px;
   width: 101%;
 }
@@ -101,9 +107,27 @@ a.one:hover {
   color: 	#fda600;
     }
 .footer {
-  grid-column: 1 / 5;
+  grid-column: 1 / 4;
   background-color: #c1440e;
   height: 300px;
+}
+.right {
+  text-align: right;
+  position: relative;
+  bottom: 20px;
+}
+.left {
+  text-align: left;
+  position: relative;
+  top: 7.5px;
+}
+.img {
+  width: 30vw;
+  padding: 10px;
+}
+.image-box {
+  display: flex;
+  justify-content: center;
 }
 @media(max-width:540px){.nav{height: 10vw;}a.one{font-size:4.2vw;}.mars-image{width:15vw;}.header{top:50px;}.footer-box{font-size: 15px;}.logo_tab{width:73%;}.site-links{font-size: 25px;}}
 @media(max-width:440px){.header{top:35px;}}
