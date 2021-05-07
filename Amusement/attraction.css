@@ -180,8 +180,18 @@ a.one:hover {
   display: none;
 }
 .news {
-  padding: 150px;
-  font-size: 1.5vw;
+  padding: 120px;
+  font-size: 2vw;
+  text-align: center;
+}
+.news-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#textarea {
+  border-radius: 5px;
+  background-color: #f0e7e7;
+  color: #451804;
 }
 @media(max-width:540px){.nav{height: 10vw;}a.one{font-size:4.2vw;}.mars-image{width:15vw;}.header{top:50px;}.footer-box{font-size: 15px;}.logo_tab{width:73%;}.site-links{font-size: 25px;}.wrapper{top: 150px;}.top{200px;}}
 @media(max-width:440px){.header{top:35px;}}
