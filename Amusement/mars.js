@@ -11,3 +11,15 @@ function scrollFunction() {
   
   window.onscroll = function() {scrollFunction()};
 
+
+function displayFunction() {
+  
+  document.getElementById('textarea').style.display='none';
+  document.getElementById('gone').style.display='block';
+}
+
+function appearFunction() {
+  
+  document.getElementById('textarea').style.display='block';
+  document.getElementById('gone').style.display='none';
+}
