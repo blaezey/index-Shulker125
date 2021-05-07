@@ -20,6 +20,6 @@ function displayFunction() {
 
 function appearFunction() {
   
-  document.getElementById('textarea').style.display='block';
+  document.getElementById('textarea').style.display='inline';
   document.getElementById('gone').style.display='none';
 }
