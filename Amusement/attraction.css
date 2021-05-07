@@ -192,6 +192,37 @@ a.one:hover {
   border-radius: 5px;
   background-color: #f0e7e7;
   color: #451804;
+  width: 30vw;
+}
+.news-box1 {
+  position: relative;
+  top: -45px;
+}
+.button {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: #451804;
+  text-transform: uppercase;
+  font-size: 1vw;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+.button:hover {
+  background-color: #e77d11;
+}
+.button:active {
+  background-color: #c1440e;
+}
+.header-news {
+  font-size: 1.5vw;
 }
 @media(max-width:540px){.nav{height: 10vw;}a.one{font-size:4.2vw;}.mars-image{width:15vw;}.header{top:50px;}.footer-box{font-size: 15px;}.logo_tab{width:73%;}.site-links{font-size: 25px;}.wrapper{top: 150px;}.top{200px;}}
 @media(max-width:440px){.header{top:35px;}}
+
+
+
