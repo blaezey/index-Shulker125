@@ -133,7 +133,7 @@ a.one:hover {
   background-color: #f0e7e7;
   width: 30vw;
   border-radius: 6px;
-  height: 261px;
+  height: 17vw;
   transition: .5s ease;
 }
 .overlay2 {
@@ -142,7 +142,7 @@ a.one:hover {
   background-color: #f0e7e7;
   width: 30vw;
   border-radius: 6px;
-  height: 507px;
+  height: 33vw;
   transition: .5s ease;
 }
 .overlay1:hover, .overlay2:hover {
