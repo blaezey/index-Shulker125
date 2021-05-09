@@ -133,6 +133,9 @@ a.one:hover {
   height: 17vw;
   transition: .5s ease;
   min-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .overlay2 {
   position: absolute;
@@ -143,9 +146,19 @@ a.one:hover {
   height: 33vw;
   transition: .5s ease;
   min-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .overlay1:hover, .overlay2:hover {
   opacity: 0.7;
+}
+.background {
+  background-color: #e77d11;
+  opacity: 1;
+  padding: 5px;
+  width: 70%;
+  border-radius: 5px;
 }
 .image-box {
   display: flex;
