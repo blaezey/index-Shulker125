@@ -16,6 +16,7 @@ function displayFunction() {
   
   document.getElementById('textarea').style.display='none';
   document.getElementById('gone').style.display='block';
+  document.getElementById('textarea').value = "";
 }
 
 function appearFunction() {
