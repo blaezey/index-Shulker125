@@ -126,11 +126,11 @@ a.one:hover {
 }
 .overlay1 {
   position: absolute;
-  opacity: 0.7;
+  opacity: 0;
   background-color: #f0e7e7;
   width: 30vw;
   border-radius: 6px;
-  height: 17vw;
+  height: 16.78%;
   transition: .5s ease;
   min-width: 250px;
   display: flex;
@@ -139,11 +139,11 @@ a.one:hover {
 }
 .overlay2 {
   position: absolute;
-  opacity: 0.7;
+  opacity: 0;
   background-color: #f0e7e7;
   width: 30vw;
   border-radius: 6px;
-  height: 33vw;
+  height: 32.56%;
   transition: .5s ease;
   min-width: 250px;
   display: flex;
