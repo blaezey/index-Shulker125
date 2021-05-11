@@ -127,7 +127,7 @@ a.one:hover {
 }
 .overlay1 {
   position: absolute;
-  opacity: 0.7;
+  opacity: 0;
   background-color: #f0e7e7;
   width: 30vw;
   height: 17vw;
@@ -140,7 +140,7 @@ a.one:hover {
 }
 .overlay2 {
   position: absolute;
-  opacity: 0.7;
+  opacity: 0;
   background-color: #f0e7e7;
   width: 30vw;
   height: 33vw;
