@@ -37,3 +37,6 @@ html {
   width: 15%;
   float: right;
 }
+.autocomplete {
+  font-size: 15px;
+}
