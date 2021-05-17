@@ -1,1 +1,39 @@
-
+.list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+       }
+.link{
+  float: left;
+ }
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 99.6%;
+  background-color: white;
+  border: 3px solid black;
+  z-index: 500;
+}
+.page {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  text-indent: 20px;
+  padding: 10px;
+}
+.page:hover {
+  color: #E15700;
+}
+html {
+  scroll-behavior: smooth;
+}
+.img {
+  width: 15vw;
+}
+.cart-style {
+  width: 15%;
+  float: right;
+}
