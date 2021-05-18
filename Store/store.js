@@ -1,4 +1,4 @@
-function autocompleteFunction(inp, arr) {
+function autocomplete(inp, arr) {
 
   var currentFocus;
 
@@ -10,8 +10,8 @@ function autocompleteFunction(inp, arr) {
       currentFocus = -1;
 
       a = document.createElement("DIV");
-      a.setAttribute("id", this.id + "autocompleteFunction-list");
-      a.setAttribute("class", "autocompleteFunction-items");
+      a.setAttribute("id", this.id + "autocomplete-list");
+      a.setAttribute("class", "autocomplete-items");
 
       this.parentNode.appendChild(a);
 
@@ -38,7 +38,7 @@ function autocompleteFunction(inp, arr) {
   });
 
   inp.addEventListener("keydown", function(e) {
-      var x = document.getElementById(this.id + "autocompleteFunction-list");
+      var x = document.getElementById(this.id + "autocomplete-list");
       if (x) x = x.getElementsByTagName("div");
       if (e.keyCode == 40) {
         currentFocus++;
@@ -58,16 +58,16 @@ function autocompleteFunction(inp, arr) {
     removeActive(x);
     if (currentFocus >= x.length) currentFocus = 0;
     if (currentFocus < 0) currentFocus = (x.length - 1);
-    x[currentFocus].classList.add("autocompleteFunction-active");
+    x[currentFocus].classList.add("autocomplete-active");
   }
   function removeActive(x) {
     for (var i = 0; i < x.length; i++) {
-      x[i].classList.remove("autocompleteFunction-active");
+      x[i].classList.remove("autocomplete-active");
     }
   }
   function closeAllLists(elmnt) {
 
-    var x = document.getElementsByClassName("autocompleteFunction-items");
+    var x = document.getElementsByClassName("autocomplete-items");
     for (var i = 0; i < x.length; i++) {
       if (elmnt != x[i] && elmnt != inp) {
         x[i].parentNode.removeChild(x[i]);
@@ -82,4 +82,4 @@ function autocompleteFunction(inp, arr) {
 
 var countries = ["PS5", "Xbox Series X", "PS5 Digital Edition", "Xbox Series S", "Nintendo Switch", "Xbox One S", "Xbox One X", "PS4", "PS4 Pro", "Xbox Controller", "Playstation 4 Controller"];
 
-autocompleteFunction(document.getElementById("myInput"), countries);
+autocomplete(document.getElementById("myInput"), countries);
