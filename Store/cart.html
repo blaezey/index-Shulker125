@@ -25,8 +25,8 @@
       <div class="cart"> <a href="../Store/cart.html"><img src="https://image.flaticon.com/icons/png/512/263/263142.png" class="cart-style"></a> </div>
    </div>
   <div class="wrapper">
-    <div class="box"> 1</div>
-    <div class="box"> 1</div>
+    <div class="box no"> There are no items in your cart</div>
+    <div class="box click"> Click "add to cart" to add a product to your cart</div>
     <div class="box"> 1</div>
     <div class="box"> 1</div>
     <div class="box"> 1</div>
@@ -49,6 +49,18 @@
       background-color: antiquewhite;
       padding: 20px;
       height: 500px;
+    }
+    .no {
+      grid-column: 1 / 5;
+      height: auto;
+      text-align: center;
+      font-size: 3vw;
+    }
+    .click {
+      grid-column: 1 / 5;
+      height: auto;
+      text-align: center;
+      font-size: 1.4vw;
     }
   </style>
   <script>
