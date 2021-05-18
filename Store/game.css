@@ -9,13 +9,15 @@
   float: left;
  }
 .nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0px;
   width: 99.6%;
   background-color: white;
   border: 3px solid black;
   z-index: 500;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
 .page {
   text-decoration: none;
@@ -34,8 +36,9 @@ html {
   width: 15vw;
 }
 .cart-style {
-  width: 15%;
+  width: 6vw;
   float: right;
+  padding: 10px;
 }
 .autocomplete {
   font-size: 15px;
