@@ -92,3 +92,6 @@ form {
   height: 300px;
   width: 100%;
 }
+.autocomplete-items div:hover {
+  background-color: red; 
+}
