@@ -1,0 +1,139 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="../Store/game.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/WVCS/index-Shulker125/main/Store/GameGo_favicon1.png">
+    <title> GameGo | Mass Effect: Legendary Edition </title>
+  </head>
+  <body>
+  <div class="nav">
+      <div class="list">
+     <ul class="list">
+       <li class="link"><a href="../Store/main.html"><img src="https://raw.githubusercontent.com/WVCS/index-Shulker125/main/Store/GameGo_logo.png" class="img"></a></li>
+       <li class="link"><a class="page"> Page 1</a></li>
+       <li class="link"><a class="page"> Page 2</a></li>
+       <li class="link"><a class="page"> Page 3</a></li>
+       <li class="link"><a class="page"> Page 4</a></li>
+    </ul>
+  </div>
+      <form autocomplete="off" action="/action_page.php">
+  <div class="autocomplete">
+    <input id="myInput" type="text" name="myCountry" placeholder="Search">
+  </div>
+</form>
+      <div class="cart"> <a href="../Store/cart.html"><img src="https://image.flaticon.com/icons/png/512/263/263142.png" class="cart-style"></a> </div>
+    
+    <div class="wrapper">
+      <div class="box"> 1</div>
+      <div class="box"> 1</div>
+      <div class="box"> 1</div>
+      <div class="box"> 1</div>
+      <div class="box"> 1</div>
+      <div class="box"> 1</div>
+    </div>
+   </div>
+  
+  
+  </body>
+  <style>
+  .wrapper {
+      position: relative;
+      top: 150px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .box {
+      background-color: antiquewhite;
+      padding: 20px;
+    }
+  
+  </style>
+  <script>
+  function autocomplete(inp, arr) {
+
+  var currentFocus;
+
+  inp.addEventListener("input", function(e) {
+      var a, b, i, val = this.value;
+
+      closeAllLists();
+      if (!val) { return false;}
+      currentFocus = -1;
+
+      a = document.createElement("DIV");
+      a.setAttribute("id", this.id + "autocomplete-list");
+      a.setAttribute("class", "autocomplete-items");
+
+      this.parentNode.appendChild(a);
+
+      for (i = 0; i < arr.length; i++) {
+
+        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+
+          b = document.createElement("DIV");
+
+          b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+          b.innerHTML += arr[i].substr(val.length);
+
+          b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+
+          b.addEventListener("click", function(e) {
+
+              inp.value = this.getElementsByTagName("input")[0].value;
+
+              closeAllLists();
+          });
+          a.appendChild(b);
+        }
+      }
+  });
+
+  inp.addEventListener("keydown", function(e) {
+      var x = document.getElementById(this.id + "autocomplete-list");
+      if (x) x = x.getElementsByTagName("div");
+      if (e.keyCode == 40) {
+        currentFocus++;
+        addActive(x);
+      } else if (e.keyCode == 38) { //up
+        currentFocus--;
+        addActive(x);
+      } else if (e.keyCode == 13) {
+        e.preventDefault();
+        if (currentFocus > -1) {
+          if (x) x[currentFocus].click();
+        }
+      }
+  });
+  function addActive(x) {
+    if (!x) return false;
+    removeActive(x);
+    if (currentFocus >= x.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = (x.length - 1);
+    x[currentFocus].classList.add("autocomplete-active");
+  }
+  function removeActive(x) {
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("autocomplete-active");
+    }
+  }
+  function closeAllLists(elmnt) {
+
+    var x = document.getElementsByClassName("autocomplete-items");
+    for (var i = 0; i < x.length; i++) {
+      if (elmnt != x[i] && elmnt != inp) {
+        x[i].parentNode.removeChild(x[i]);
+      }
+    }
+  }
+
+  document.addEventListener("click", function (e) {
+      closeAllLists(e.target);
+  });
+}
+
+var countries = ["PS5", "Xbox Series X", "PS5 Digital Edition", "Xbox Series S", "Nintendo Switch", "Xbox One S", "Xbox One X", "PS4", "PS4 Pro", "Xbox Controller", "Playstation 4 Controller"];
+
+autocomplete(document.getElementById("myInput"), countries);
+    
+  </script>
+</html>
