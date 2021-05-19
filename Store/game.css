@@ -53,7 +53,7 @@ html {
 form {
   position: fixed;
   left: 43%;
-  top: 15%;
+  top: 43px;
 }
 #myInput {
   border-radius: 3px;
