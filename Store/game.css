@@ -24,7 +24,7 @@ body {
 }
 .page {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 2.5vw;
   color: black;
   text-indent: 20px;
   padding: 10px;
@@ -52,7 +52,7 @@ html {
 }
 form {
   position: fixed;
-  left: 43%;
+  left: 49%;
   top: 43px;
 }
 #myInput {
