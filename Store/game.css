@@ -21,6 +21,7 @@ body {
   z-index: 500;
   display: grid;
   grid-template-columns: 3fr 1fr;
+  height: 110px;
 }
 .page {
   text-decoration: none;
