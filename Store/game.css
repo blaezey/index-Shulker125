@@ -55,6 +55,7 @@ form {
   position: fixed;
   left: 49%;
   top: 43px;
+  z-index: 1000
 }
 #myInput {
   border-radius: 3px;
