@@ -98,7 +98,10 @@
       
       </div>
     </div>
-    
+  <button onclick="topFunction()" id="rtrntp">
+    ^
+  </button>  
+  
   </body>
   <style>
     .shad {
@@ -379,6 +382,29 @@ var countries = ["PS5", "Xbox Series X", "PS5 Digital Edition", "Xbox Series S",
 
 autocomplete(document.getElementById("myInput"), countries);
     
+    function topFunction() {
+  
+  document.body.scrollTop = 0;
+ document.documentElement.scrollTop = 0;
+  
+}
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)
+    
+  document.getElementById("rtrntp").style.opacity = "1";
+  
+  else {
+      document.getElementById('rtrntp').style.opacity = "0";
+    }
+  
+  
+}
+
+
     
   </script>
 </html>
