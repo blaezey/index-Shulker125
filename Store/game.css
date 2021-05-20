@@ -112,9 +112,3 @@ form {
       align-items: center;
       justify-content: center;
     }
-.shad {
-      transition: box-shadow 0.5s;
-    }
-    .shad:hover {
-      box-shadow: 0 0 10px grey;
-    }
