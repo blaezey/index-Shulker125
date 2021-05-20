@@ -25,7 +25,7 @@
     </div>
     <div class="wrapper">
       <div class="box ps5-a"> <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ps5-1-1591910417.jpg?crop=1xw:0.9047619047619048xh;center,top&resize=1200:*" class="ps5-1"></div>
-      <div class="box ttl"> Sony Playstation 5 <br><strong><div class="price"> $499.99</div></strong><br><center><button id="add-cart"> Add to Cart</button></center></div>
+      <div class="box ttl"> Sony Playstation 5 <br><strong><div class="price"> $499.99</div></strong><br><center><button id="add-cart" onclick="alert("This item has been added to your cart")"> Add to Cart</button></center></div>
       <div class="box product"><strong> Product Description</strong></div>
       <div class="box description"><ul class="ps5-ul">
         <li class="ps5-li"> Ultra-High Speed SSD: Maximize your play sessions with near instant load times for installed PS5™ games.</li>
@@ -41,9 +41,11 @@
         <li class="ps5-li"> Adaptive Triggers: Get to grips with immersive adaptive triggers, featuring dynamic resistance levels which simulate the physical impact of in-game activities in select PS5 games.</li>
         </ul>
         </div>
+      <div class="box similar"> <strong>Similar Items</strong></div>
         <div class="box"> 1</div>
         <div class="box"> 1</div>
-        <div class="box"> 1</div>
+      <div class="box"> 1</div>
+      <div class="box"> 1</div>
       <div class="footer"> <div class="site-links"> Site Links </div>
        <center> <div class="footer-wrapper">
           <div class="footer-box"><a> About Us</a></div>
@@ -62,6 +64,10 @@
     </div>
   </body>
   <style>
+    .similar {
+      grid-column: 1 / 5;
+      font-size: 1.6vw;
+    }
     .ps5-ul {
       border-bottom: 2px solid black;
     }
