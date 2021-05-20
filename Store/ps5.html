@@ -22,20 +22,86 @@
   </div>
 </form>
       <div class="cart"> <a href="../Store/cart.html"><img src="https://image.flaticon.com/icons/png/512/263/263142.png" class="cart-style"></a> </div>
-    
-    <div class="wrapper">
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
-      <div class="box"> 1</div>
     </div>
-   </div>
-  
-  
+    <div class="wrapper">
+      <div class="box ps5-a"> <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ps5-1-1591910417.jpg?crop=1xw:0.9047619047619048xh;center,top&resize=1200:*" class="ps5-1"></div>
+      <div class="box ttl"> Sony Playstation 5 <br><strong><div class="price"> $499.99</div></strong><br><center><button id="add-cart"> Add to Cart</button></center></div>
+      <div class="box product"><strong> Product Description</strong></div>
+      <div class="box description"><ul class="ps5-ul">
+        <li class="ps5-li"> Ultra-High Speed SSD: Maximize your play sessions with near instant load times for installed PS5™ games.</li>
+        <li class="ps5-li"> Integrated I/O: The custom integration of the PS5™ Digital Edition’s systems lets creators pull data from the SSD so quickly that they can design games in ways never before possible.</li>
+        <li class="ps5-li"> Ray Tracing: Immerse yourself in worlds with a new level of realism as rays of light are individually simulated, creating true-to-life shadows and reflections in supported PS5™ games.</li>
+        <li class="ps5-li"> 4K-TV Gaming: Play your favorite PS5™ games on your stunning 4K TV.</li>
+        <li class="ps5-li"> Up to 120fps with 120Hz output</li>
+        <li class="ps5-li"> Enjoy smooth and fluid high frame rate gameplay at up to 120fps for compatible games, with support for 120Hz output on 4K displays.</li>
+        <li class="ps5-li"> HDR Technology: With an HDR TV, supported PS5™ games display an unbelievably vibrant and lifelike range of colors.</li>
+        <li class="ps5-li"> 8K Output: PS5™ consoles support 8K Output, so you can play games on your 4320p resolution display.</li>
+        <li class="ps5-li"> Tempest 3D AudioTech: Immerse yourself in soundscapes where it feels as if the sound comes from every direction. Through your headphones or TV speakers your surroundings truly come alive with Tempest 3D AudioTech in supported games.</li>
+        <li class="ps5-li"> Haptic Feedback: Experience haptic feedback via the DualSense wireless controller in select PS5 titles and feel the effects and impact of your in-game actions through dynamic sensory feedback.</li>
+        <li class="ps5-li"> Adaptive Triggers: Get to grips with immersive adaptive triggers, featuring dynamic resistance levels which simulate the physical impact of in-game activities in select PS5 games.</li>
+        </ul>
+        </div>
+        <div class="box"> 1</div>
+        <div class="box"> 1</div>
+        <div class="box"> 1</div>
+      <div class="footer"> <div class="site-links"> Site Links </div>
+       <center> <div class="footer-wrapper">
+          <div class="footer-box"><a> About Us</a></div>
+           <div class="footer-box"><a> Terms & Conditions</a></div>
+           <div class="footer-box"><a> Help Center</a></div>
+           <div class="footer-box"><a> Contact Us</a></div>
+           <div class="footer-box"><a> Privacy Policy</a></div>
+           <div class="footer-box"><a> Legal</a></div>
+           <div class="footer-box"><a> Site Map</a></div>
+           <div class="footer-box"><a> Cookie Consent</a></div>
+          <div class="footer-box"><a> Partner With Us </a></div>
+           <div class="footer-box"><a> FAQs</a></div>
+           <div class="footer-box"><a> Accessibility </a></div>
+           <div class="footer-box"><a> Account</a></div>
+         </div></center></div>
+    </div>
   </body>
   <style>
+    .ps5-ul {
+      border-bottom: 2px solid black;
+    }
+    .ps5-li {
+      width: 80%;
+      font-size: 1.2vw;
+      padding: 5px;
+    }
+    .description {
+      grid-column: 1 / 5;
+    }
+    .product {
+      grid-column: 1 / 5;
+      border-top: solid 2px black;
+      font-size: 1.6vw;
+    }
+    #add-cart {
+      width: 70%;
+      font-size: 1.3vw;
+    }
+    #add-cart:hover {
+      cursor: pointer;
+    }
+    .price {
+      padding: 10px;
+      border-bottom: 2px solid black
+    }
+    .ttl {
+      grid-column: 3 / 5;
+      text-align: left;
+      font-size: 2.5vw;
+    }
+    .ps5-1 {
+      position: relative;
+      width: 80%;
+      left: 5%;
+    }
+    .ps5-a {
+      grid-column: 1 / 3;
+    }
   .wrapper {
       position: relative;
       top: 150px;
@@ -46,7 +112,6 @@
       background-color: antiquewhite;
       padding: 20px;
     }
-  
   </style>
   <script>
   function autocomplete(inp, arr) {
