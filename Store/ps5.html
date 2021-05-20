@@ -25,7 +25,7 @@
     </div>
     <div class="wrapper">
       <div class="box ps5-a"> <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ps5-1-1591910417.jpg?crop=1xw:0.9047619047619048xh;center,top&resize=1200:*" class="ps5-1"></div>
-      <div class="box ttl"> Sony Playstation 5 <br><strong><div class="price"> $499.99</div></strong><br><center><button id="add-cart" onclick="alert("This item has been added to your cart")"> Add to Cart</button></center></div>
+      <div class="box ttl"> Sony Playstation 5 <br><strong><div class="price"> $499.99</div></strong><br><center><button id="add-cart" onclick="clickFunction()"> Add to Cart</button></center></div>
       <div class="box product"><strong> Product Description</strong></div>
       <div class="box description"><ul class="ps5-ul">
         <li class="ps5-li"> Ultra-High Speed SSD: Maximize your play sessions with near instant load times for installed PS5™ games.</li>
@@ -205,6 +205,12 @@
 var countries = ["PS5", "Xbox Series X", "PS5 Digital Edition", "Xbox Series S", "Nintendo Switch", "Xbox One S", "Xbox One X", "PS4", "PS4 Pro", "Xbox Controller", "Playstation 4 Controller"];
 
 autocomplete(document.getElementById("myInput"), countries);
+    
+    function clickFunction {
+      alert("This item has been added to your cart")
+      
+    }
+    
     
   </script>
 </html>
