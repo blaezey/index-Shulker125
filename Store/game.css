@@ -127,3 +127,37 @@ form {
   background-color: #8A817C;
   cursor: pointer;
 }
+@media(max-width:540px){
+  .footer-box {
+    font-size: 3vw;
+  }
+  .site-links {
+    font-size: 4vw;
+  }
+  .footer {
+    height: 220px;
+  }
+  form {
+    left: 18%;
+    top: 80px;
+  }
+  #myInput {
+    width: 200px;
+  }
+  .cart {
+    position: fixed;
+    right: 0;
+  }
+  .cart-style {
+    width: 15vw;
+  }
+  .page {
+    font-size: 6vw;
+  }
+  .img {
+    width: 30vw;
+  }
+  .shipping {
+    display: none;
+  }
+}
