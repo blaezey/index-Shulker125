@@ -31,7 +31,8 @@ body {
   padding: 10px;
 }
 .page:hover {
-  color: #E15700;
+  color: #BCB8B1;
+  cursor: pointer;
 }
 html {
   scroll-behavior: smooth;
@@ -85,7 +86,7 @@ form {
   
 }
 .footer-box:hover {
-  color: 	#fda600;
+  color: 	#BCB8B1;
   cursor: pointer;
     }
 .footer {
