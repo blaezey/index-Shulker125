@@ -55,11 +55,11 @@ form {
   position: fixed;
   left: 49%;
   top: 43px;
-  z-index: 1000
+  z-index: 1000;
 }
 #myInput {
   border-radius: 3px;
-  width: 20vw;
+  width: 300px;
 }
 .site-links {
   position: relative;
@@ -95,7 +95,7 @@ form {
   width: 100%;
 }
 .autocomplete-items div:hover {
-  background-color: red; 
+  background-color: #BCB8B1; 
 }
 .ship {
       width: 5%;
